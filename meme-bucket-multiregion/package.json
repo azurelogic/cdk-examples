@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "0.1.0",
+  "bin": {
+    "src": "bin/src.js"
+  },
+  "scripts": {
+    "test": "tsc",
+    "test:watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "8.10.45",
+    "typescript": "^3.3.3333",
+    "aws-cdk": "^1.1.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-s3": "^1.1.0",
+    "@aws-cdk/aws-sns": "^1.1.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.1.0",
+    "@aws-cdk/aws-sqs": "^1.1.0",
+    "@aws-cdk/core": "^1.1.0"
+  }
+}
